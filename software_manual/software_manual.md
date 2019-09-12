@@ -1,5 +1,29 @@
 # Software Manual
 
+## Absolute Error
+**Function Name**: absolute\_error
+
+**Author**: Ethan Ancell
+
+**Language**: C. This code can be compiled with the GNU C compiler (gcc).
+
+**Description/Purpose**: This function will calculate the absolute error between the precise number and the approximation to that number.
+
+**Input**: Two double numbers are inputted, one called "true\_value" and one called "approximation".
+
+**Output**: This function will return the absolute difference between the true value of the number and the approximation to that number.
+
+**Usage Example**: An example below is given with the absolute error of the true value of 4.5 and its approximation of 4.643. 
+```
+printf("The absolute error of 4.5 and 4.643 is %f\n", absolute_error(4.5, 4.643));
+```
+After including this line somewhere in a program, the output from that line will be the following:
+```
+The absolute_error of 4.5 and 4.643 is 0.143000
+```
+
+**Code**: A link to the code can be found [Here](../shared_library/src/absolute_error.c)
+
 ## Approximation of Derivative Using Difference Quotient (Task Sheet 1 - Task 6)
 [Link to code](../tasks_source/task_sheet_1/task_6/task6.c)
 
