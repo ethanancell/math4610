@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int single_machine_precision(int print_results)
 {
 	// Single Precision
 	float one = 1.0;
@@ -9,18 +9,21 @@ int main()
 	float diff;
 
 	int i;
-	for(i=0; i<1001; i++)
+	for(i=1; i<1001; i++)
 	{
 		diff = one - (one + eps);
-		printf("diff: %f, eps: %f\n", diff, eps);
+		if(print_results)
+			printf("diff: %f, eps: %f\n", diff, eps);
 		if(diff == 0.0)
 		{
-			printf("Iterations: %d\n", i);
+			if(print_results)
+				printf("Iterations: %d\n", i);
 			break;
 		}
 		eps = 0.5 * eps;
 	}
-	printf("Size of float is %d\n", sizeof(float));
+	if(print_results)
+		printf("Size of float is %d\n", sizeof(float));
 	
-	return 0;
+	return i;
 }
