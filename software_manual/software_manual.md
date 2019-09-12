@@ -19,3 +19,5 @@ As expected, the output gets closer and closer to the real value of the derivati
 A screenshot of the machine output has been included below.
 
 ![Console Output Picture](../images/s1_t6_cmdoutput.png)
+
+As we can see, around the first few iterations, the approximation to the derivative is off by quite a bit. The approximation becomes best around 20 iterations, and then slowly starts to diverge away until eventually becoming unusable around the 53rd iteration. The 21st iteration is where the machine precision starts to affect the output after using the h value in the calculations, and the 53rd iteration is where the h completely disappears out of view due to becoming too small for the double type.

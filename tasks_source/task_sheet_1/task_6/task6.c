@@ -24,7 +24,7 @@ int main()
 	double h = 1;
 	for(int i=0; i<100; i++)
 	{
-		printf("Approximation to derivative: %.14f\tH: %.14f\tIteration: %d\n", calculate_derivative(2, h), h, i);
+		printf("Approximation to derivative: %.14f\t\th: %.14f\tIteration: %d\n", calculate_derivative(2, h), h, i);
 		h = h / 2;
 	}
 
