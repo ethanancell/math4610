@@ -4,6 +4,7 @@
 
 ### Task 6
 [Link to task 6 code](../tasks_source/task_sheet_1/task_6/task6.c)
+
 In this code, I used an arbitrary example function of the sine function to calculate derivatives, with an also arbitrary value of 2 to plug in.
 This program will not be part of the shared library since it is demonstrating a concept, and for that reason there is a "driver" functionality that is occuring with the main function.
 
