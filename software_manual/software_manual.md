@@ -1,6 +1,6 @@
 # Software Manual
-## Task 1
-Some stuff
 
-## Task 2
-Some more stuff
+## Task Sheet 1
+
+### Task 6
+The code for how I chose to document this behavior can be found at the following link:
