@@ -3,4 +3,4 @@
 ## Task Sheet 1
 
 ### Task 6
-The code for how I chose to document this behavior can be found at the following link:
+[Link to task 6 code](../tasks_source/task_sheet_1/task_6/task6.c)
