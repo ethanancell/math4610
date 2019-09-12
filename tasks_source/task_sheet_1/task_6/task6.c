@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <math.h>
 
-// This will be the actual function "object" that we use, that we will be calculating the derivative of.
+// This will be the actual function  that we use, that we will be calculating the derivative of.
 double example_function(double x)
 {
 	// In this case for an example, I will use the sine function from the math library.
@@ -24,8 +24,7 @@ int main()
 	double h = 1;
 	for(int i=0; i<100; i++)
 	{
-		printf("Approximation to derivative: %.14f\n", calculate_derivative(2, h));
-		printf("H: %.14f Iteration: %d\n\n", h, i);
+		printf("Approximation to derivative: %.14f\tH: %.14f\tIteration: %d\n", calculate_derivative(2, h), h, i);
 		h = h / 2;
 	}
 
