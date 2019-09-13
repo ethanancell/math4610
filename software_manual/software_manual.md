@@ -67,3 +67,21 @@ A screenshot of the machine output has been included below.
 ![Console Output Picture](../images/s1_t6_cmdoutput.png)
 
 As we can see, around the first few iterations, the approximation to the derivative is off by quite a bit. The approximation becomes best around 20 iterations, and then slowly starts to diverge away until eventually becoming unusable around the 53rd iteration. The 21st iteration is where the machine precision starts to affect the output after using the h value in the calculations, and the 53rd iteration is where the h completely disappears out of view due to becoming too small for the double type.
+
+## Derivative of Exponential Function at pi (Task Sheet 1 - Task 9)
+[Link to code](../tasks_source/task_sheet_1/task_9/)
+
+The link above directs to the folder where all of the relevant work for this problem resides. A copy of the shared library has been made in the directly along with the needed header files for the library to work correctly.
+
+In this program, we incrementally make h smaller and smaller for the approximation of the derivative using the central difference technique. We set the error to be the absolute error (using the shared library) of that number and the true value of the derivative of the exponential function at pi. The relative error is also computed, but only used for printing rather than affecting decision flow in the program itself.
+
+Once the tolerance is reached, then the while loop exits and we print out the approximation.
+
+A screenshot of the program is included below:
+
+![Console Output Picture](../images/s1_t9_cmdoutput.png)
+
+## A Write-up on Absolute and Relative Errors
+The main consensus that I gathered from whether you should be using the absolute or relative error is that it entirely depends upon the context of your problem. The absolute error is useful for being precise in your distance from what you want to reach, but it has drawbacks in that we can't tell if the error is significant, because that depends on how large the correct value is. A relative error is generally more useful because you can get within a "percentage" of the true value, which is a lot more generalizable to any size of number you wish to approximate.
+
+My sources for these sentences comes from the site https://ece.uwaterloo.ca/~dwharder/NumericalAnalysis/01Error/Error/
