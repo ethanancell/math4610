@@ -1,5 +1,6 @@
 ## Relative Error
-**Function Name**: relative\_error
+**Function Name**: double relative\_error(double true\_value, double approximation)
+**Header File**: relative\_error.h
 
 **Author**: Ethan Ancell
 
@@ -9,7 +10,7 @@
 
 **Input**: Two double numbers are inputted, one called "true\_value" and one called "approximation". We must be careful to not use a value of zero for the true\_value, since the relative error is undefined for that value.
 
-**Output**: This function will return the relative difference between the true value of the number and the approximation to that number in the form of a proportion in terms to the true value.
+**Output**: Return type is double for the relative error. This function will return the relative difference between the true value of the number and the approximation to that number in the form of a proportion in terms to the true value.
 
 **Usage Example**: An example below is given with the absolute error of the true value of 4.5 and its approximation of 4.643.
 ```

@@ -1,5 +1,6 @@
 ## Absolute Error
-**Function Name**: absolute\_error
+**Function Name**: double absolute\_error(double true\_value, double approximation)
+**Header File**: absolute\_error.h
 
 **Author**: Ethan Ancell
 
@@ -9,7 +10,7 @@
 
 **Input**: Two double numbers are inputted, one called "true\_value" and one called "approximation".
 
-**Output**: This function will return the absolute difference between the true value of the number and the approximation to that number.
+**Output**: Return type is double for the absolute error. This function will return the absolute difference between the true value of the number and the approximation to that number.
 
 **Usage Example**: An example below is given with the absolute error of the true value of 4.5 and its approximation of 4.643.
 ```
