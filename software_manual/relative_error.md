@@ -1,5 +1,6 @@
 ## Relative Error
 **Function Name**: double relative\_error(double true\_value, double approximation)
+
 **Header File**: relative\_error.h
 
 **Author**: Ethan Ancell
