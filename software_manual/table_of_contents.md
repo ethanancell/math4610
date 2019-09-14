@@ -1,9 +1,6 @@
 # Table of Contents
-Use this list to quickly jump to the location in the software manual where I outline how I completed each of the tasks.
+Here are the functions that are currently listed within the software manual along with a link to access each of those.
 
-## Task Sheet 1
-* Task 6
-* Task 7
-* Task 8
-* Task 9
-* Task 10
+## Basic Functions
+* [Single Machine Precision]
+* [Double Machine Precision]
