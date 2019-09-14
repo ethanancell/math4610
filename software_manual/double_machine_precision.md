@@ -1,5 +1,6 @@
 # Double Machine Precision
 **Function Name**: int double\_machine\_precision(int print\_results)
+
 **Header File**: double\_machine\_precision.h
 
 **Author**: Ethan Ancell
