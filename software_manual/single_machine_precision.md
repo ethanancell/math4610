@@ -1,5 +1,6 @@
 # Single Machine Precision
 **Function Name**: int single\_machine\_precision(int print\_results)
+
 **Header File**: single\_machine\_precision.h
 
 **Author**: Ethan Ancell
