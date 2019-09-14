@@ -1,5 +1,6 @@
 ## Absolute Error
 **Function Name**: double absolute\_error(double true\_value, double approximation)
+
 **Header File**: absolute\_error.h
 
 **Author**: Ethan Ancell
