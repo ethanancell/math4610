@@ -36,4 +36,5 @@ double bisection (double (*function)(),
 
 	// At the end of the day if we never exactly found the root, we return our
 	// best guess here, but should be within the tolerance that we specified.
+	return c;
 }

@@ -21,8 +21,10 @@ int main()
 	printf("The single machine precision iterations is %d\n", single_machine_precision(0));
 
 	printf("\nBISECTION TEST\n");
+	double root = bisection(ethan_function, 2, 4, 0.00001);
 	printf("The root of the ethan function between 1.5 and 4 with tolerance of 0.00001 is:\n");
-	printf("%f\n", bisection(ethan_function, 2, 4, 0.00001)); 
+	printf("%f\n", root); 
+	printf("The function evaluated at root is f(root) = %f\n\n", ethan_function(root));
 
 
 	return 0;
