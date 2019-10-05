@@ -1,14 +1,12 @@
-# Tasksheet 2, Task 2
+# Tasksheet 2 - Task 1
 In this task we must set up a root finding problem for the equation:
 ```
 x * cosh(x) + x^3 = pi
 ```
-I chose to set up this problem by using fixed point iteration. If we consider our f(x) to be the following:
+If we wish to create a function that we can find the root of in order to solve for "x" in the above equation, a good choice would be to choose the associated function:
 ```
 f(x) = x * cosh(x) + x^3 - pi
 ```
-We must construct some g(x) such that the derivative of g(x) will be less than one. I decided to let my g(x) be the following:
-```
-g(x) = x - (1/50)*(x * cosh(x) + x^3 - pi)
-```
-The derivative of this equation will be less than one for much of the domain, which allows the functional iteration to converge to the true answer. The actual code that will implement this fixed point iteration will be done in task 3.
+This function would be a good way to set up the root finding problem, because finding what "x" that lets "f(x)" evaluate to 0 would be the same x that you plug in the very top equation to get an equality.
+
+The associated fixed point iterations will be developed in task 2 of this task sheet.
