@@ -24,7 +24,7 @@ Because the function evaluated at the root given by fixed point iteration is sma
 
 Because the bisection method cuts the interval down by half every single iteration, it doesn't have the same kind of rapid convergence that fixed point iteration can have when a proper g(x) function is chosen.
 
-Although fixed point iteration has won the past two categories, where it fails is when it is hard to find a proper g(x) function. I tried out two different g(x) functions when I tested out fixed point iteration, and one of them gave a nonsensical answer because the iterations of the root started straying off towards negative infinity.
+Although fixed point iteration has won the past two categories, where it fails is when it is hard to find a proper g(x) function. I tried out two different g(x) functions when I tested out fixed point iteration, and one of them gave a nonsensical answer because the iterations of the root started straying off towards negative infinity. The bisection method is a much more stable solution because the requirements are a lot easier to meet.
 
 **Winning Methods**:
 * Better approximation: Fixed point iteration
