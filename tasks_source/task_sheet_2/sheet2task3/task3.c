@@ -36,11 +36,13 @@ int main(int argc, char* argv[])
 	double root;
 	
 	root = fixed_point_iteration(g1, 0, 0.00001, 1000);
-	printf("\nFirst g(x) from Task 2\n");
+	printf("\nFirst g(x)\n");
 	printf("Root is calculated to be %f\n", root); 
+	printf("f(root) = %f\n\n", f(root));
 	
 	root = fixed_point_iteration(g2, 0, 0.00001, 1000);
-	printf("\nSecond g(x) from Task 2\n");
-	printf("Root is calculated to be %f\n\n", root);
+	printf("\nSecond g(x)\n");
+	printf("Root is calculated to be %f\n", root);
+	printf("f(root) = %f\n\n", f(root));
 	return 0;
 }
