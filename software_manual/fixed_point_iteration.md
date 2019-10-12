@@ -7,7 +7,7 @@
 
 **Language**: C. This code can be compiled with the GNU C compiler (gcc).
 
-**Description/Purpose**: This code will calculate the root for a function used the fixed point iterative scheme. A transformed function is required that will evaluate to the root itself if the root is plugged into the function. This "converted" function is required for fixed point iteration to work.
+**Description/Purpose**: This code will calculate the root for a function usig the fixed point iterative scheme. A transformed function is required that will evaluate to the root itself if the root is plugged into the function. This "converted" function is required for fixed point iteration to work.
 
 **Input**:
 * double (\*gfunction)() - A function pointer to the "converted" function used to find the root of the original function.
