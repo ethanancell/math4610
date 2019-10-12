@@ -1,5 +1,5 @@
 # Fixed Point Iteration
-**Function Name**: ```fixed\_point\_iteration (double (\*gfunction)(), double x0, double tolerance, int max\_iterations)```:
+**Function Name**: ```fixed_point_iteration (double (*gfunction)(), double x0, double tolerance, int max_iterations)```:
 **Header File**:
 
 **Author**: Ethan Ancell
