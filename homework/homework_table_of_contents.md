@@ -23,6 +23,7 @@ each of the assigned tasks. Each section has links to the sections in the softwa
 * __Task 6__ - Link to [absolute error page](https://github.com/ethanancell/math4610/blob/master/software_manual/absolute_error.md) and [relative error page](https://github.com/ethanancell/math4610/blob/master/software_manual/relative_error.md)
 * __Task 7__ - [Fixed point iteration in software manual](https://github.com/ethanancell/math4610/blob/master/software_manual/fixed_point_iteration.md)
 * __Task 8__ - [Bisection in software manual](https://github.com/ethanancell/math4610/blob/master/software_manual/bisection.md)
+* __Task 9__ - [Comparison](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_2/sheet2task9.md)
 
 ## Other Links
 * [Shared Library Table of Contents](https://github.com/ethanancell/math4610/blob/master/software_manual/table_of_contents.md)
