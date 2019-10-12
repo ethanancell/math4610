@@ -16,6 +16,7 @@ each of the assigned tasks. Each section has links to the sections in the softwa
 
 ## Task Sheet 2
 * __Task 1__ - [Set up here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_2/sheet2task1.md)
+* __Task 2__ - [Set up here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_2/sheet2task2.md)
 
 ## Other Links
 * [Shared Library Table of Contents](https://github.com/ethanancell/math4610/blob/master/software_manual/table_of_contents.md)
