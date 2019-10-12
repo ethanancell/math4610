@@ -17,7 +17,7 @@
 
 **Output**: Returns a double with the guess of the root of the function.
 
-**Usage Example** Here the usage of fixed point iteration for two different iterative schemes will be demonstrated. The converted functions will all be based upon the original function we wish to find the root of.
+**Usage Example**: Here the usage of fixed point iteration for two different iterative schemes will be demonstrated. The converted functions will all be based upon the original function we wish to find the root of.
 
 Original function:
 ```
