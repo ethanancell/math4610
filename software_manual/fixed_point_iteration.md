@@ -1,13 +1,13 @@
 # Fixed Point Iteration
-**Function Name**: ```fixed_point_iteration(double (*gfunction)(), double x0, double tolerance, int max_iterations)```:
+**Function Name**: ```fixed_point_iteration(double (*gfunction)(), double x0, double tolerance, int max_iterations)```
 
-**Header File**: fixed_point_iteration.c
+**Header File**: fixed_point_iteration.h
 
 **Author**: Ethan Ancell
 
 **Language**: C. This code can be compiled with the GNU C compiler (gcc).
 
-**Description/Purpose**: This code will calculate the root for a function used the fixed point iterative scheme. A transformed function is required that will evaluate to the root itself if the root is plugged into the function. This "converted" function is required for fixed point iteration to work.
+**Description/Purpose**: This code will calculate the root for a function using the fixed point iterative scheme. A transformed function is required that will evaluate to the root itself if the root is plugged into the function. This "converted" function is required for fixed point iteration to work.
 
 **Input**:
 * double (\*gfunction)() - A function pointer to the "converted" function used to find the root of the original function.
