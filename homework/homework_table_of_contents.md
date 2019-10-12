@@ -18,9 +18,11 @@ each of the assigned tasks. Each section has links to the sections in the softwa
 * __Task 1__ - [Set up here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_2/sheet2task1.md)
 * __Task 2__ - [Set up here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_2/sheet2task2.md)
 * __Task 3__ - [Shown here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_2/sheet2task3.md)
-* __Task 4__ - [Link to Bisection Code](https://github.com/ethanancell/math4610/blob/master/shared_library/src/bisection.c) - This code has been included in the shared library.
-* __Task 5__ - Link to [Single Machine Precision Page](https://github.com/ethanancell/math4610/blob/master/software_manual/single_machine_precision.md) and [Double Machine Precision Page](https://github.com/ethanancell/math4610/blob/master/software_manual/double_machine_precision.md)
-* __Task 6__ - Link to [Absolute Error Page](https://github.com/ethanancell/math4610/blob/master/software_manual/absolute_error.md) and [Relative Error Page](https://github.com/ethanancell/math4610/blob/master/software_manual/relative_error.md)
+* __Task 4__ - [Link to bisection code](https://github.com/ethanancell/math4610/blob/master/shared_library/src/bisection.c) - this code has been included in the shared library.
+* __Task 5__ - Link to [Single machine precision page](https://github.com/ethanancell/math4610/blob/master/software_manual/single_machine_precision.md) and [double machine precision page](https://github.com/ethanancell/math4610/blob/master/software_manual/double_machine_precision.md)
+* __Task 6__ - Link to [Absolute error page](https://github.com/ethanancell/math4610/blob/master/software_manual/absolute_error.md) and [relative error page](https://github.com/ethanancell/math4610/blob/master/software_manual/relative_error.md)
+* __Task 7__ - [Fixed point iteration in software manual](https://github.com/ethanancell/math4610/blob/master/software_manual/fixed_point_iteration.md)
+* __Task 8__ - [Bisection in software manual](https://github.com/ethanancell/math4610/blob/master/software_manual/bisection.md)
 
 ## Other Links
 * [Shared Library Table of Contents](https://github.com/ethanancell/math4610/blob/master/software_manual/table_of_contents.md)
