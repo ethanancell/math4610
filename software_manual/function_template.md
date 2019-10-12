@@ -12,6 +12,6 @@
 
 **Output**: Returns one y value
 
-**Usage Example** Here I have used the function as shown below
+**Usage Example**: Here I have used the function as shown below
 
 **Code**: Link to this code can be found [here]
