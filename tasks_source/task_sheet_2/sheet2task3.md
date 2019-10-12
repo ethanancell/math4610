@@ -11,3 +11,5 @@ The main program (task3.c) utilized the shared library created from the fixed po
 Here is the command line output of running the function:
 
 ![Console Output Picture](./sheet2task3/cmdoutput.png)
+
+As it appears, the root finding was unsuccessful for the first guess of g(x) due to the output of "-inf", but the second g(x) appears to be some sensible root that suggests that guess of g(x) may have worked.
