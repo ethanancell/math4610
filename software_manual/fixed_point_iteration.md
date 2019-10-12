@@ -1,7 +1,7 @@
 # Fixed Point Iteration
 **Function Name**: ```fixed_point_iteration(double (*gfunction)(), double x0, double tolerance, int max_iterations)```
 
-**Header File**: fixed_point_iteration.c
+**Header File**: fixed_point_iteration.h
 
 **Author**: Ethan Ancell
 
