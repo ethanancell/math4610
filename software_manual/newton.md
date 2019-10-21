@@ -1,4 +1,4 @@
-# Function Title
+# Newton's Method (root finding)
 **Function Name**: ```newton(double (*function)(), double (*function_prime)(), double x0, double tolerance, int max_iterations)```
 
 **Header File**: newton.h
