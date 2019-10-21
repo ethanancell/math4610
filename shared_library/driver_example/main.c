@@ -7,6 +7,7 @@
 #include "../src/bisection.h"
 #include "../src/fixed_point_iteration.h"
 #include "../src/newton.h"
+#include "../src/secant.h"
 
 // Example function to test the bisection method.
 double ethan_function(double n)
@@ -78,6 +79,13 @@ int main()
 	printf("The root of the weird function with tolerance of 0.00001 is:\n");
 	printf("%f\n", root);
 	printf("The function evaluated at root is f(root) = %f\n\n", nf(root));
+
+	// Secant method
+	printf("\nSECANT METHOD\n");
+	root = secant(weird_function, 1, 1.01, 0.00001, 10000);
+	printf("The root of the weird function with tolerance of 0.00001 is:\n");
+	printf("%f\n", root);
+	printf("The function evaluated at root is f(root) = %f\n\n", weird_function(root));
 
 
 	return 0;
