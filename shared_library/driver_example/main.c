@@ -6,6 +6,7 @@
 #include "../src/single_machine_precision.h"
 #include "../src/bisection.h"
 #include "../src/fixed_point_iteration.h"
+#include "../src/newton.h"
 
 // Example function to test the bisection method.
 double ethan_function(double n)
@@ -29,7 +30,23 @@ double g_weird_function(double x)
 	return x - (1.0 / 50.0) * weird_function(x);
 }
 
+// Derivative of weird function to test newton's method
+double weird_function_prime(double x)
+{
+	return cosh(x) - x*sinh(x) + 3*pow(x,2);
+}
 
+// Newtons function
+double nf(double x)
+{
+	return 3*pow(x,3);
+}
+
+// Newtons function derivative
+double nfp(double x)
+{
+	return 9*pow(x,2);
+}
 
 
 
@@ -55,6 +72,14 @@ int main()
 	printf("%f\n", root);
 	printf("The function evaluated at root is f(root) = %f\n\n", weird_function(root));
 
+	// Newton's method
+	printf("\nNEWTON'S METHOD\n");
+	root = newton(weird_function, weird_function_prime, 1, 0.0000001, 10000);
+	printf("The root of the weird function with tolerance of 0.00001 is:\n");
+	printf("%f\n", root);
+	printf("The function evaluated at root is f(root) = %f\n\n", nf(root));
+
 
 	return 0;
+
 }
