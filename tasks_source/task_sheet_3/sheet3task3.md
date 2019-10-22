@@ -45,3 +45,32 @@ and right bound, which was not hard to choose because I knew my root was roughly
 method seems to be a lot more stable than functional iteration was with less requirements.
 
 ## Newton's Method
+For Newton's method, the requirement that we need to meet is we need to provide the function's derivative along with an initial guess. For the function that we were given, the derivative will be the following:
+```
+f'(x) = cosh(x) - xsinh(x) + 3x^2
+```
+We will use an initial guess of 1, because that is around the neighborhood of the root that we have been seeing in the previous methods.
+
+The code that performs Newton's method for this function can be found [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/function_examples/newton_root.c)
+
+The output from Newton's method is the following:
+
+![Console Output Picture](https://github.com/ethanancell/math4610/blob/master/images/s3_t1_cmdoutput.png)
+
+For this function, a derivative was not very hard to find, because it simply involved a product rule along with a power rule. For a function that is a lot more complicated, it might be really difficult to find a derivative, which makes it hard to satisfy the requirements of Newton's method. Additionally, if we didn't know what the function looked like or in what general region the root lies, it would be hard to provide an initial guess.
+
+For this function, the Newton's method worked out very well with very quick convergence because we were able to easily find a derivative and an initial guess.
+
+## Secant Method
+For the secant method, we need only the function and two initial guesses. I will provide an initial guess of 1, and also an initial guess of 1.05.
+
+The code that performs the secant method for this function can be found [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/function_examples/secant_root.c)
+
+The output from the console from the code using the secant method is the following:
+
+![Console Output Picture](https://github.com/ethanancell/math4610/blob/master/images/s3_t2_cmdoutput.png)
+
+In my experience, the secant method provided the best result with a very minimal amount of setup, so I would elect to use this method for this specific case. I only needed to provide two numbers roughly around where the root is.
+
+## Overview
+After implementing each of the methods for that same function, I would choose the secant method for that problem. Although all of the methods worked quite nicely, all I had to do with the secant method was plug in two initial guesses for the function and I got a very good result. As seen in the output for the secant method, the function evaluated at that root was exactly 0 down to whatever machine precision is displayed, so it provided a very good result with low setup.
