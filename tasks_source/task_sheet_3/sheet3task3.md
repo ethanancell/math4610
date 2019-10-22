@@ -16,11 +16,11 @@ As it turns out, the following function works well for functional iteration of t
 ```
 g(x) = x - (1/8)(xcosh(x) + x^3 - pi)
 ```
-Code that performs the functional iteration of this method is found [here.](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_2/sheet2task3/task3.c)
+Code that performs the functional iteration of this method is found [here.](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_2/sheet2task3/task3_2.c)
 
 We observe the following output:
 
-![Console Output Picture](https://github.com/ethanancell/math4610/blob/master/images/s2_t7_cmdoutput.png)
+![Console Output Picture](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_2/sheet2task3/cmdoutput2.png)
 
 This function was able to converge rapidly to the root and performs well, but for this function it was very difficult
 to find that alternative function g(x) such that the absolute value of its derivative was less than one around the root.
