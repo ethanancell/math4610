@@ -29,6 +29,7 @@ each of the assigned tasks. Each section has links to the sections in the softwa
 ## Task Sheet 3
 * __Task 1__ - [Code](https://github.com/ethanancell/math4610/blob/master/shared_library/src/newton.c) and [software manual page](https://github.com/ethanancell/math4610/blob/master/software_manual/newton.md)
 * __Task 2__ - [Code](https://github.com/ethanancell/math4610/blob/master/shared_library/src/secant.c) and [software manual page](https://github.com/ethanancell/math4610/blob/master/software_manual/secant.md)
+* __Task 3__ - [4 Methods Compared](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_3/sheet3task3.md)
 
 ## Other Links
 * [Shared Library Table of Contents](https://github.com/ethanancell/math4610/blob/master/software_manual/table_of_contents.md)
