@@ -8,6 +8,7 @@
 #include "../src/fixed_point_iteration.h"
 #include "../src/newton.h"
 #include "../src/secant.h"
+#include "../src/hybrid_roots.h"
 
 // Example function to test the bisection method.
 double ethan_function(double n)
@@ -49,6 +50,18 @@ double nfp(double x)
 	return 9*pow(x,2);
 }
 
+// Hybrid function test
+double f2(double x)
+{
+	return sin((1.0/4.0)*x+10)+(1.0/6.0)*x;
+}
+
+// Hybrid function derivative
+double f2p(double x)
+{
+	return (1.0/4.0)*cos((1.0/4.0)*x+10)+(1.0/6.0);
+}
+
 
 
 
@@ -86,6 +99,14 @@ int main()
 	printf("The root of the weird function with tolerance of 0.00001 is:\n");
 	printf("%f\n", root);
 	printf("The function evaluated at root is f(root) = %f\n\n", weird_function(root));
+
+	// Hybrid (newton)
+	printf("\nHYBRID (NEWTON)\n");
+	root = bisection_newton(f2, f2p, -500.0, 500.0, -50, 0.00001, 10000);
+	printf("The root of the function with tolerance of 0.00001 is:\n");
+	printf("%f\n", root);
+	printf("The function evaluated at root is f(root) = %f\n\n", f2(root));
+
 
 
 	return 0;
