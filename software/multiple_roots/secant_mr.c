@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../headers/newton.h"
+#include "../headers/secant.h"
 
 // Variables we will need to access everywhere
 int total_roots = 0;
@@ -13,13 +13,7 @@ double function(double x)
 	return sin(M_PI*pow(x,2) + 3.7);
 }
 
-// Function derivative
-double function_prime(double x)
-{
-	return 2*M_PI*x*cos(M_PI*pow(x,2) + 3.7);
-}
-
-double* find_roots(double (*function)(), double (*function_prime)(), double a, double b, double step_size)
+double* find_roots(double (*function)(), double a, double b, double step_size)
 {
 	int i;
 	int iterations = (int) (b-a) / step_size;
@@ -61,8 +55,9 @@ double* find_roots(double (*function)(), double (*function_prime)(), double a, d
 		{
 			total_roots++;
 			root_locations = realloc(root_locations, total_roots * sizeof(double));
-			double newton_guess = (2*a+2*i*step_size+step_size) / 2.0;
-			*(root_locations+total_roots-1) = newton(function, function_prime, newton_guess, 0.00001, 1000);
+			double secant_guess1 = (a+i*step_size) + (step_size / 3.0);
+			double secant_guess2 = (a+i*step_size) + (2.0 * step_size / 3.0);
+			*(root_locations+total_roots-1) = secant(function, secant_guess1, secant_guess2, 0.00001, 1000);
 		}
 	}
 
@@ -71,7 +66,7 @@ double* find_roots(double (*function)(), double (*function_prime)(), double a, d
 
 int main()
 {
-	double* roots = find_roots(function, function_prime, 1.1, 68.3, 0.0001);
+	double* roots = find_roots(function, 1.1, 68.3, 0.0001);
 	printf("root size is %d\n", total_roots);
 
 	// Optional Printing
@@ -83,7 +78,7 @@ int main()
 
 	// File outputs
 	FILE* rootsfile;
-	rootsfile = fopen("newton_roots.txt", "w");
+	rootsfile = fopen("secant_roots.txt", "w");
 	for(i=0; i<total_roots; i++)
 	{
 		fprintf(rootsfile, "%f\n", roots[i]);

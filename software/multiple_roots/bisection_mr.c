@@ -74,6 +74,15 @@ int main()
 		printf("Root of %f\n", roots[i]);
 	}
 
+	// File outputs
+	FILE* rootsfile;
+	rootsfile = fopen("bisection_roots.txt", "w");
+	for(i=0; i<total_roots; i++)
+	{
+		fprintf(rootsfile, "%f\n", roots[i]);
+	}
+
+	fclose(rootsfile);
 	free(roots);
 
 	return 0;
