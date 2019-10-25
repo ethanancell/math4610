@@ -36,6 +36,7 @@ each of the assigned tasks. Each section has links to the sections in the softwa
 * __Task 7__ - [Performed here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_3/sheet3task7.md)
 * __Task 8__ - [Performed here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_3/sheet3task8.md)
 * __Task 9__ - [Performed here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_3/sheet3task9.md)
+* __Task 10__ - [Write up here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_3/sheet3task10.md)
 
 ## Other Links
 * [Shared Library Table of Contents](https://github.com/ethanancell/math4610/blob/master/software_manual/table_of_contents.md)
