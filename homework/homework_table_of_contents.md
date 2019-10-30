@@ -40,7 +40,7 @@ each of the assigned tasks. Each section has links to the sections in the softwa
 
 ## Task Sheet 4
 * __Task 1__ - [Answer here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_4/sheet4task1.md)
-* __
+* __Task 2__ - Manual pages for [1-norm](https://github.com/ethanancell/math4610/blob/master/software_manual/norm1.md), [2-norm](https://github.com/ethanancell/math4610/blob/master/software_manual/norm2.md), and [infinity norm.](https://github.com/ethanancell/math4610/blob/master/software_manual/norminf.md)
 
 ## Other Links
 * [Shared Library Table of Contents](https://github.com/ethanancell/math4610/blob/master/software_manual/table_of_contents.md)
