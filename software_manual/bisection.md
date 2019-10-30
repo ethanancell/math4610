@@ -1,4 +1,4 @@
-# Function Title
+# Bisection Method (Root finding)
 **Function Name**: ```bisection(double (*function)(), double a, double b, double tolerance)```
 
 **Header File**: bisection.h
@@ -9,7 +9,7 @@
 
 **Description/Purpose**: This function will calculate the root for a function using the bisection method. We require a function pointer to the function we wish to take the root of, a window to search over, and a tolerance to the root. The bisection method will return the guess of the root over that window.
 
-**Input**: 
+**Input**:
 * double (\*function)() - A function pointer to the function that we wish to find the root of.
 * double a - The left bound of x for the window that we will search over for the root.
 * double b - The right bound of x for the window that we will search over for the root.

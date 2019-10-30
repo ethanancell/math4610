@@ -6,6 +6,7 @@
 
 // Variables we will need to access everywhere
 int total_roots = 0;
+int iterations = 0;
 
 // Function we are finding the roots of
 double function(double x)

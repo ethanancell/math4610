@@ -9,6 +9,7 @@
 #include "../src/newton.h"
 #include "../src/secant.h"
 #include "../src/hybrid_roots.h"
+#include "../src/vec_norm.h"
 
 // Example function to test the bisection method.
 double ethan_function(double n)
@@ -76,7 +77,7 @@ int main()
 	printf("\nBISECTION TEST\n");
 	double root = bisection(ethan_function, 2, 4, 0.00001);
 	printf("The root of the ethan function between 1.5 and 4 with tolerance of 0.00001 is:\n");
-	printf("%f\n", root); 
+	printf("%f\n", root);
 	printf("The function evaluated at root is f(root) = %f\n\n", ethan_function(root));
 
 	// Fixed point
@@ -107,6 +108,11 @@ int main()
 	printf("%f\n", root);
 	printf("The function evaluated at root is f(root) = %f\n\n", f2(root));
 
+	// Vector stuff
+	double u[] = {1.0, 2.0, 3.0};
+	printf("2norm of <1,2,3> = %f\n", vec_norm_2(u, 3));
+	printf("1norm of <1,2,3> = %f\n", vec_norm_1(u, 3));
+	printf("inf norm of <1,2,3> = %f\n", vec_norm_inf(u, 3));
 
 
 	return 0;
