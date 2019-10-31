@@ -15,7 +15,7 @@
 
 **Output**: Returns a pointer to the vector that is created from the addition of the two. Make sure to free the memory in the pointer at the end of your program.
 
-**Usage Example**: Example code using the vector operations can be found [here.](https://github.com/ethanancell/math4610/blob/master/software/vectors/vec_operations.c)
+**Usage Example**: Example code using the vector operations can be found [here.](https://github.com/ethanancell/math4610/blob/master/software/vectors/operations.c)
 
 The output from the console is the following:
 

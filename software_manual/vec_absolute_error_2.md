@@ -16,7 +16,7 @@
 
 **Output**: Returns a double with the absolute error between the vectors as a magnitude.
 
-**Usage Example**: Example code using the absolute errors can be found [here.](https://github.com/ethanancell/math4610/blob/master/software/vectors/absolute_error.c)
+**Usage Example**: Example code using the absolute errors can be found [here.](https://github.com/ethanancell/math4610/blob/master/software/vectors/absolute_errors.c)
 
 The output from the console is the following:
 

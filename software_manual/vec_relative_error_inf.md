@@ -16,7 +16,7 @@
 
 **Output**: Returns a double with the relative error expressed as a proportion.
 
-**Usage Example**: Example code using the relative errors can be found [here.](https://github.com/ethanancell/math4610/blob/master/software/vectors/relative_error.c)
+**Usage Example**: Example code using the relative errors can be found [here.](https://github.com/ethanancell/math4610/blob/master/software/vectors/relative_errors.c)
 
 The output from the console is the following:
 
