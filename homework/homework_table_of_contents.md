@@ -41,6 +41,8 @@ each of the assigned tasks. Each section has links to the sections in the softwa
 ## Task Sheet 4
 * __Task 1__ - [Answer here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_4/sheet4task1.md)
 * __Task 2__ - Manual pages for [1-norm](https://github.com/ethanancell/math4610/blob/master/software_manual/norm1.md), [2-norm](https://github.com/ethanancell/math4610/blob/master/software_manual/norm2.md), and [infinity norm.](https://github.com/ethanancell/math4610/blob/master/software_manual/norminf.md)
+* __Task 3__ - Manual pages for vector absolute error utilizing [1-norm](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_absolute_error_1.md), [2-norm](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_absolute_error_2.md), [infinity norm](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_absolute_error_inf.md) and relative error utilizing [1-norm](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_relative_error_1.md), [2-norm](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_relative_error_2.md), [infinity norm](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_relative_error_inf.md)
+* __Task 4__ - Manual pages for vector [addition](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_add.md), [subtraction](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_subtract.md), and [scaling.](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_scalar.md)
 
 ## Other Links
 * [Shared Library Table of Contents](https://github.com/ethanancell/math4610/blob/master/software_manual/table_of_contents.md)
