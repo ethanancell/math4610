@@ -1,7 +1,7 @@
 # Vector Cross Product
 **Function Name**: ```double* vec_crossproduct(double u[], double v[])```
 
-**Header File**: vec_product.h
+**Header File**: vec_crossproduct.h
 
 **Author**: Ethan Ancell
 
@@ -26,4 +26,4 @@ The output from the console is the following:
 
 ![Console Output](images/vec_crossproduct.png)
 
-**Code**: Link to the source code for vector products is [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/vec_product.c)
+**Code**: Link to the source code for vector products is [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/vec_crossproduct.c)

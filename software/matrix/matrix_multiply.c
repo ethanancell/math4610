@@ -1,4 +1,4 @@
-#include "../headers/mtx_operations.h"
+#include "../headers/mtx_vec_multiply.h"
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,5 +1,7 @@
 #include <stdio.h>
-#include "../headers/vec_error.h"
+#include "../headers/vec_absolute_error_1.h"
+#include "../headers/vec_absolute_error_2.h"
+#include "../headers/vec_absolute_error_inf.h"
 
 int main()
 {

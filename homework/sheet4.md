@@ -1,0 +1,11 @@
+## Task Sheet 4
+* __Task 1__ - [Answer here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_4/sheet4task1.md)
+* __Task 2__ - Manual pages for [1-norm](https://github.com/ethanancell/math4610/blob/master/software_manual/norm1.md), [2-norm](https://github.com/ethanancell/math4610/blob/master/software_manual/norm2.md), and [infinity norm.](https://github.com/ethanancell/math4610/blob/master/software_manual/norminf.md)
+* __Task 3__ - Vector absolute error: [1-norm](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_absolute_error_1.md), [2-norm](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_absolute_error_2.md), [infinity norm](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_absolute_error_inf.md) Vector relative error: [1-norm](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_relative_error_1.md), [2-norm](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_relative_error_2.md), [infinity norm](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_relative_error_inf.md)
+* __Task 4__ - Manual pages for vector [addition](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_add.md), [subtraction](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_subtract.md), and [scaling.](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_scalar.md)
+* __Task 5__ - Manual page for [SAXPY.](https://github.com/ethanancell/math4610/blob/master/software_manual/saxpy.md)
+* __Task 6__ - Pages for [dot product](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_dotproduct.md) and [cross product.](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_crossproduct.md)
+* __Task 7__ - [Manual page](https://github.com/ethanancell/math4610/blob/master/software_manual/matrix_multiply.md)
+* __Task 8__ - [Here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_4/processors.md)
+* __Task 9__ - [Here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_4/task9.md)
+* __Task 10__ - [Here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_4/task10.md)

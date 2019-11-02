@@ -1,7 +1,7 @@
 # Vector Absolute Error (2-Norm)
 **Function Name**: ```vec_absolute_error_2(double x_approx[], double x[], size_t length)```
 
-**Header File**: vec_error.h
+**Header File**: vec_absolute_error.h
 
 **Author**: Ethan Ancell
 
@@ -22,4 +22,4 @@ The output from the console is the following:
 
 ![Console Output](images/vec_absolute_errors.png)
 
-**Code**: Link to the source code for vector errors is [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/vec_error.c)
+**Code**: Link to the source code for vector errors is [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/vec_absolute_error_2.c)

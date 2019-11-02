@@ -1,7 +1,7 @@
 # Matrix and Vector multiplication
 **Function Prototype**: ```void mtx_vec_multiply (int m, int n, double A[m][n], double x[], double* destination);```
 
-**Header File**: mtx_operations.h
+**Header File**: mtx_vec_multiply.h
 
 **Author**: Ethan Ancell
 
@@ -24,4 +24,4 @@ The output from the console is the following:
 
 ![Console Output](images/matrix_multiply.png)
 
-**Code**: Link to the source code for vector operations is [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/mtx_operations.c)
+**Code**: Link to the source code for vector operations is [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/mtx_vec_multiply.c)

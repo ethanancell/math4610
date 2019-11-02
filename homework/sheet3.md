@@ -1,0 +1,11 @@
+## Task Sheet 3
+* __Task 1__ - [Code](https://github.com/ethanancell/math4610/blob/master/shared_library/src/newton.c) and [software manual page](https://github.com/ethanancell/math4610/blob/master/software_manual/newton.md)
+* __Task 2__ - [Code](https://github.com/ethanancell/math4610/blob/master/shared_library/src/secant.c) and [software manual page](https://github.com/ethanancell/math4610/blob/master/software_manual/secant.md)
+* __Task 3__ - [4 Methods Compared](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_3/sheet3task3.md)
+* __Task 4__ - [Documented here](https://github.com/ethanancell/math4610/blob/master/software_manual/bisection_newton.md)
+* __Task 5__ - [Documented here](https://github.com/ethanancell/math4610/blob/master/software_manual/bisection_secant.md)
+* __Task 6__ - Functions added to shared library. Shared library directory can be found [here.](https://github.com/ethanancell/math4610/blob/master/shared_library)
+* __Task 7__ - [Performed here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_3/sheet3task7.md)
+* __Task 8__ - [Performed here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_3/sheet3task8.md)
+* __Task 9__ - [Performed here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_3/sheet3task9.md)
+* __Task 10__ - [Write up here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_3/sheet3task10.md)

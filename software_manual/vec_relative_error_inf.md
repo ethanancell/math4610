@@ -1,7 +1,7 @@
 # Vector Relative Error (Infinity Norm)
 **Function Name**: ```vec_relative_error_inf(double x_approx[], double x[], size_t length)```
 
-**Header File**: vec_error.h
+**Header File**: vec_relative_error_inf.h
 
 **Author**: Ethan Ancell
 
@@ -22,4 +22,4 @@ The output from the console is the following:
 
 ![Console Output](images/vec_relative_errors.png)
 
-**Code**: Link to the source code for vector errors is [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/vec_error.c)
+**Code**: Link to the source code for vector errors is [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/vec_relative_error_inf.c)

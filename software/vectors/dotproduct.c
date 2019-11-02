@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../headers/vec_product.h"
+#include "../headers/vec_dotproduct.h"
 
 int main()
 {

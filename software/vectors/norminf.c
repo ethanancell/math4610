@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "../headers/vec_norm.h"
+#include "../headers/vec_norm_inf.h"
 
 int main()
 {

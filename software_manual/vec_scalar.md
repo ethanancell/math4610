@@ -1,7 +1,7 @@
 # Vector Scaling
 **Function Name**: ```double* vec_scale(double scalar, double u[], size_t length)```
 
-**Header File**: vec_operations.h
+**Header File**: vec_scale.h
 
 **Author**: Ethan Ancell
 
@@ -21,4 +21,4 @@ The output from the console is the following:
 
 ![Console Output](images/vec_operations.png)
 
-**Code**: Link to the source code for vector operations is [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/vec_operations.c)
+**Code**: Link to the source code for vector operations is [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/vec_scale.c)

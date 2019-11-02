@@ -1,7 +1,7 @@
 # Vector Dot Product
 **Function Name**: ```double* vec_dotproduct(double u[], double v[], int length)```
 
-**Header File**: vec_product.h
+**Header File**: vec_dotproduct.h
 
 **Author**: Ethan Ancell
 
@@ -22,4 +22,4 @@ The output from the console is the following:
 
 ![Console Output](images/vec_dotproduct.png)
 
-**Code**: Link to the source code for vector products is [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/vec_product.c)
+**Code**: Link to the source code for vector products is [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/vec_dotproduct.c)

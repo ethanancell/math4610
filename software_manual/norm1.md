@@ -1,7 +1,7 @@
 # Vector 1-Norm
 **Function Name**: ```vec_norm_1(double u[], size_t length)```
 
-**Header File**: vec_norm.h
+**Header File**: vec_norm_1.h
 
 **Author**: Ethan Ancell
 
@@ -21,4 +21,4 @@ The output from the console is the following:
 
 ![Console Output](images/norm1.png)
 
-**Code**: Link to the 1-norm source code is [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/vec_norm.c)
+**Code**: Link to the 1-norm source code is [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/vec_norm_1.c)

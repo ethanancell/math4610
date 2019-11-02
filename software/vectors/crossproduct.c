@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../headers/vec_product.h"
+#include "../headers/vec_crossproduct.h"
 
 void print_vector(double* vector, int length)
 {

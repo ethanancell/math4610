@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../headers/vec_operations.h"
+#include "../headers/vec_add.h"
+#include "../headers/vec_subract.h"
+#include "../headers/vec_scale.h"
 
 void print_vector(double* vector, int length)
 {
