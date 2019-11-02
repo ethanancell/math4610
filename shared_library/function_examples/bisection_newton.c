@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-#include "../src/hybrid_roots.h"
+#include "../src/bisection_newton.h"
 
 // Example function
 double function(double x)

@@ -1,7 +1,7 @@
 # Hybrid Root Finding - Bisection and Newton's Method
 **Function Name**: ```bisection_newton(double (*function)(), double (*function_prime)(), double a, double b, double x0, double tolerance, int max_iterations)```
 
-**Header File**: hybrid_roots.h
+**Header File**: bisection_newton.h
 
 **Author**: Ethan Ancell
 
@@ -34,4 +34,4 @@ The output from the code that uses the hybrid method is:
 
 ![Console Output Picture](https://github.com/ethanancell/math4610/blob/master/shared_library/function_examples/images/bisection_newton.png)
 
-**Code**: Link to the hybrid method code can be found [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/hybrid_roots.c) in the first function.
+**Code**: Link to the hybrid method code can be found [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/bisection_newton.c) in the first function.

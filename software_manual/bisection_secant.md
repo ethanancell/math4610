@@ -1,7 +1,7 @@
 # Hybrid Root Finding - Bisection and Secant Method
 **Function Name**: ```bisection_secant(double (*function)(), double (*function_prime)(), double a, double b, double x0, double tolerance, int max_iterations)```
 
-**Header File**: hybrid_roots.h
+**Header File**: bisection_secant.h
 
 **Author**: Ethan Ancell
 
@@ -30,4 +30,4 @@ The output from the code that uses the hybrid method is:
 
 ![Console Output Picture](https://github.com/ethanancell/math4610/blob/master/shared_library/function_examples/images/bisection_secant.png)
 
-**Code**: Link to the hybrid method code can be found [here](https://github.com/ethanancell/math4610/blob/master/shared_library/src/hybrid_roots.c) in the second function.
+**Code**: Link to the source code can be found [here.](https://github.com/ethanancell/math4610/blob/master/shared_library/src/bisection_secant.c)
