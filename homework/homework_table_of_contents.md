@@ -45,6 +45,10 @@ each of the assigned tasks. Each section has links to the sections in the softwa
 * __Task 4__ - Manual pages for vector [addition](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_add.md), [subtraction](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_subtract.md), and [scaling.](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_scalar.md)
 * __Task 5__ - Manual page for [SAXPY.](https://github.com/ethanancell/math4610/blob/master/software_manual/saxpy.md)
 * __Task 6__ - Pages for [dot product](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_dotproduct.md) and [cross product.](https://github.com/ethanancell/math4610/blob/master/software_manual/vec_crossproduct.md)
+* __Task 7__ - [Manual page](https://github.com/ethanancell/math4610/blob/master/software_manual/matrix_multiply.md)
+* __Task 8__ - [Here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_4/processors.md)
+* __Task 9__ - [Here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_4/task9.md)
+* __Task 10__ - [Here](https://github.com/ethanancell/math4610/blob/master/tasks_source/task_sheet_4/task10.md)
 
 ## Other Links
 * [Shared Library Table of Contents](https://github.com/ethanancell/math4610/blob/master/software_manual/table_of_contents.md)
