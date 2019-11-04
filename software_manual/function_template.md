@@ -1,5 +1,6 @@
 # Function Title
-**Function Name**:
+**Function Prototype**:
+
 **Header File**:
 
 **Author**: Ethan Ancell

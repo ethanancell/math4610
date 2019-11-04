@@ -1,6 +1,6 @@
 #include <math.h>
 #include <stddef.h>
-#include "vec_norm.h"
+#include "vec_norm_1.h"
 
 // Relative error with 1-norm
 double vec_relative_error_1(double x_approx[], double x[], size_t length)

@@ -1,6 +1,6 @@
 #include <math.h>
 #include <stddef.h>
-#include "vec_norm.h"
+#include "vec_norm_inf.h"
 
 // Relative error with infinity-norm
 double vec_relative_error_inf(double x_approx[], double x[], size_t length)

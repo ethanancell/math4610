@@ -1,6 +1,6 @@
 #include <math.h>
 #include <stddef.h>
-#include "vec_norm.h"
+#include "vec_norm_2.h"
 
 // Absolute error with 2-norm
 double vec_absolute_error_2(double x_approx[], double x[], size_t length)
