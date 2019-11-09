@@ -6,3 +6,6 @@
 * __Task 5__ - [Linear system solving](../software_manual/mtx_echelonsolve.md)
 * __Task 6__ - [LU factorization](../software_manual/mtx_lufact.md)
 * __Task 7__ - [LU factorization with solving](../software_manual/mtx_lufactsolve.md)
+* __Task 8__ - [Comparison of serial and OpenMP LU-factorization](../tasks_source/task_sheet_5/task8.md)
+* __Task 9__ - [Linear system solving with OpenMP LU-factorization and partial scale pivoting](../tasks_source/task_sheet_5/task9.md)
+* __Task 10__ - [Write-up](../tasks_source/task_sheet_5/task10.md)
