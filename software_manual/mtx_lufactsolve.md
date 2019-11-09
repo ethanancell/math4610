@@ -23,6 +23,7 @@ system will be stored inside of x.
 **Usage Example**: [This code](../software/matrix/mtx_lufactsolve_example.c) will
 create a matrix and factorize it to an L and U, and
 then use that result to compute the solution to the system. The console after running the code is the following:
+
 ![Console Output](images/mtx_lufactsolve.png)
 
 **Code**: Link to the source code for the library code is
