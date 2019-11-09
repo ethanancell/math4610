@@ -23,6 +23,7 @@ on the upper triangular part of the output.
 **Usage Example**: [This code](../software/matrix/mtx_echelon_example.c) will
 create a matrix and reduce the row using Gaussian elimination. The result from
 the console after running the code is the following:
+
 ![Console Output](images/mtx_echelon.png)
 
 **Code**: Link to the source code for Gaussian elimination is
