@@ -19,7 +19,7 @@ iterations. The error is computed with the 2-norm.
 * ```int max_iterations``` - The maximum amount of Jacobi iterations that the
 function should take.
 
-**Output**: No direct return value, but the solution is stored inside of the memory that the "x" input points to.
+**Output**: Returns the number of iterations that took to reach the exit conditions. Also will store the resulting x estimate in the x pointer passed in as a function parameter.
 
 **Usage Example**: Example code [here.](../software/matrix/mtx_jacobisolve_example.c) We assign the linear system in the following
 way:

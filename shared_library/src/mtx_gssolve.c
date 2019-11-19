@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int mtx_jacobisolve(int n,
+int mtx_gssolve(int n,
 					 double* a,
 					 double* b,
 					 double* x,
@@ -32,14 +32,14 @@ int mtx_jacobisolve(int n,
 			for (int j=0; j<i; j++)
 			{
 				efficiency_iterations++;
-				xnew[i] -= *(a+(i*n)+j) * xold[j];
+				xnew[i] = xnew[i] - *(a+(i*n)+j) * xnew[j];
 			}
 			for (int j=i+1; j<n; j++)
 			{
 				efficiency_iterations++;
-				xnew[i] -= *(a+(i*n)+j) * xold[j];
+				xnew[i] = xnew[i] - *(a+(i*n)+j) * xold[j];
 			}
-			xnew[i] /= *(a+(i*n+i));
+			xnew[i] = xnew[i] / *(a+(i*n)+i);
 		}
 
 		// Compute the error

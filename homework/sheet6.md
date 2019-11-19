@@ -5,3 +5,7 @@
 * __Task 4__ - [Diagonal Dominant Matrix Generation](../software_manual/gen_mtxdd.md)
 * __Task 5__ - [Symmetric Matrix Generation](../software_manual/gen_mtxsym.md)
 * __Task 6__ - [Symmetric and Diagonally Dominant Matrix Generation](../software_manual/gen_mtxsymdd.md)
+* __Task 7__ - [Jacobi Iteration Testing](../tasks_source/task_sheet_6/task7.md)
+* __Task 8__ - [Gauss-Seidel Iteration](../software_manual/mtx_gssolve.md)
+* __Task 9__ - [Comparison between Jacobi and Gauss-Seidel](../tasks_source/task_sheet_6/task9.md)
+* __Task 10__ - [Write up](../tasks_source/task_sheet_6/task10.md)

@@ -1,6 +1,6 @@
 #include <stdlib.h>
 
-void mtx_vec_multiply (int m, int n, double A[m][n], double x[], double* destination)
+void mtx_vec_multiply (int m, int n, double* a, double* x, double* destination)
 {
 	double sum;
 
@@ -11,7 +11,7 @@ void mtx_vec_multiply (int m, int n, double A[m][n], double x[], double* destina
 		// loop through columns of matrix
 		for(int j=0; j<n; j++)
 		{
-			sum += A[i][j] * x[j];
+			sum += *(a+(i*n)+j) * *(x+j);
 		}
 		*(destination+i) = sum;
 	}
