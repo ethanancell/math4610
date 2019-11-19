@@ -21,4 +21,4 @@ generated square matrix.
 
 Nonetheless, in every case we see that the Gauss-Seidel outperformed the
 number of iterations required by Jacobi iteration. This confirms that
-the Gauss-Seidel is a more efficient method in this case.
+the Gauss-Seidel is a more efficient method.
