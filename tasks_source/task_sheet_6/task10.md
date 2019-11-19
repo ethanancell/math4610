@@ -1,8 +1,5 @@
 # Tasksheet 6 - Task 10
 
-I discovered that even though diagonally dominant matrices
-will always converge, the true condition that needs to be
-met for the matrix to converge is that the magnitude of the
-largest eigenvalue of "M" must be less than one, where ```M=D^-1(A-D)```, and it just so happens that all diagonally dominant matrices fulfill this condition. I also learned in this article that iterative methods for solutions to linear systems are typically reserved to large matrices, especially sparse matrices. I also learned that there are some systems of equations where Jacobi iteration will converge, but Gauss-Seidel will not.
+I found an application of Gauss-Seidel solving in sound transmission problems. Differential equations modeling coupled systems for sound transmission are particularly useful to solve with Gauss-Seidel, because it handles weakly coupled systems with just a few iterations and will also natively handle strongly coupled systems. The author also provides a physical interpretation of the convergence condition (maximum eigenvalue of iteration matrix less than one), so it is interesting to see an analytic condition show up in physical reality as well.
 
-My source is found [here.](http://mathfaculty.fullerton.edu/mathews/n2003/GaussSeidelMod.html)
+My source is found [here.](https://core.ac.uk/download/pdf/41781830.pdf)
