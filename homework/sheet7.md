@@ -1,0 +1,11 @@
+## Task Sheet 7
+* __Task 1__ - [Method of Steepest Descent](../software_manual/mtx_steepestdescentsolve.md)
+* __Task 2__ - [Hilbert Solving](../tasks_source/task_sheet_7/task2.md)
+* __Task 3__ - [Conjugate Gradient Method](../software_manual/mtx_cgsolve.md)
+* __Task 4__ - [Comparison here](../tasks_source/task_sheet_7/task4.md)
+* __Task 5__ - [Comparison here](../tasks_source/task_sheet_7/task5.md)
+* __Task 6__ - [Comparison here](../tasks_source/task_sheet_7/task6.md)
+* __Task 7__ - [Comparison here](../tasks_source/task_sheet_7/task7.md)
+* __Task 8__ - [Tridiagonal Multiplication](../software_manual/mtx_tridiagonal_multiply.md)
+* __Task 9__ - [Pentadiagonal Multiplication](../software_manual/mtx_pentadiagonal_multiply.md)
+* __Task 10__ - [Write up here](../tasks_source/task_sheet_7/task10.md)

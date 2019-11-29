@@ -7,6 +7,7 @@ The following links can be used to find the solutions to each of the task sheets
 * [Task Sheet 4](sheet4.md)
 * [Task Sheet 5](sheet5.md)
 * [Task Sheet 6](sheet6.md)
+* [Task Sheet 7](sheet7.md)
 
 ## Other Links
 * [Shared Library Table of Contents](https://github.com/ethanancell/math4610/blob/master/software_manual/table_of_contents.md)
