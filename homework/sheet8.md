@@ -8,4 +8,4 @@
 * __Task 7__ - [Condition number of a matrix](../software_manual/mtx_conditionnumber.md)
 * __Task 8__ - [Condition number on Hilbert matrix (size 10)](../tasks_source/task_sheet_8/task8.md)
 * __Task 9__ -
-* __Task 10__ - [Write-up here](../tasks_source/task_sheet_10/task10.md)
+* __Task 10__ - [Write-up here](../tasks_source/task_sheet_8/task10.md)
