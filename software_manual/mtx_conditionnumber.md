@@ -1,7 +1,7 @@
 # Condition Number of Matrix
 **Function Prototype**: ```double mtx_conditionnumber(int n, double* a, double tolerance, int max_iterations);```
 
-**Header File**: mtx_conditionmethod.h
+**Header File**: mtx_conditionnumber.h
 
 **Author**: Ethan Ancell
 
